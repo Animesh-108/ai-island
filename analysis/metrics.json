@@ -1,0 +1,861 @@
+[
+  {
+    "run_id": "L1-A",
+    "level": 1,
+    "seed": 101,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 22,
+        "seconds_per_decision": 4.75,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 4,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 86,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 2,
+          "water": 0
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 13,
+        "seconds_per_decision": 4.48,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 2,
+        "items_given": 0,
+        "items_received": 4,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 112,
+        "first_shelter_arrival": 58,
+        "final_inventory": {
+          "food": 2,
+          "water": 2
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Sam"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1174
+  },
+  {
+    "run_id": "L1-B",
+    "level": 1,
+    "seed": 102,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 17,
+        "seconds_per_decision": 4.27,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 96,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 2,
+          "water": 2
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 13,
+        "seconds_per_decision": 4.35,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 68,
+        "final_inventory": {
+          "food": 2,
+          "water": 0
+        },
+        "enforced_limits": 2
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Alex"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.0943
+  },
+  {
+    "run_id": "L1-C",
+    "level": 1,
+    "seed": 103,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 15,
+        "seconds_per_decision": 3.92,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 2,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 86,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 4,
+          "water": 2
+        },
+        "enforced_limits": 2
+      },
+      "Sam": {
+        "decisions": 17,
+        "seconds_per_decision": 4.55,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 2,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 58,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 1
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Alex"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1016
+  },
+  {
+    "run_id": "L2-A",
+    "level": 2,
+    "seed": 201,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 16,
+        "seconds_per_decision": 3.91,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 2,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 1,
+          "water": 0
+        },
+        "enforced_limits": 1
+      },
+      "Sam": {
+        "decisions": 15,
+        "seconds_per_decision": 4.17,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 2,
+        "bridge_attempts": 1,
+        "supplies_ready_time": 113,
+        "first_shelter_arrival": 68,
+        "final_inventory": {
+          "food": 2,
+          "water": 2
+        },
+        "enforced_limits": 1
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Sam"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.0936
+  },
+  {
+    "run_id": "L2-B",
+    "level": 2,
+    "seed": 202,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 17,
+        "seconds_per_decision": 4.29,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 2,
+        "items_received": 1,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 96,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 3,
+          "water": 0
+        },
+        "enforced_limits": 1
+      },
+      "Sam": {
+        "decisions": 16,
+        "seconds_per_decision": 3.37,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 1,
+        "items_received": 2,
+        "bridge_attempts": 1,
+        "supplies_ready_time": 103,
+        "first_shelter_arrival": 68,
+        "final_inventory": {
+          "food": 2,
+          "water": 2
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Sam"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1
+  },
+  {
+    "run_id": "L2-C",
+    "level": 2,
+    "seed": 203,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "NONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 17,
+        "seconds_per_decision": 3.87,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 3,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 106,
+        "first_shelter_arrival": 86,
+        "final_inventory": {
+          "food": 5,
+          "water": 2
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 19,
+        "seconds_per_decision": 4.59,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 3,
+        "items_received": 0,
+        "bridge_attempts": 1,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 78,
+        "final_inventory": {
+          "food": 1,
+          "water": 0
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": {
+      "stopped": false,
+      "at_shelter": [
+        "Alex"
+      ],
+      "rescued": []
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1164
+  },
+  {
+    "run_id": "L3-A",
+    "level": 3,
+    "seed": 301,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 20,
+        "seconds_per_decision": 4.33,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 4,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 1
+      },
+      "Sam": {
+        "decisions": 13,
+        "seconds_per_decision": 4.44,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 4,
+        "bridge_attempts": 1,
+        "supplies_ready_time": 164,
+        "first_shelter_arrival": 48,
+        "final_inventory": {
+          "food": 4,
+          "water": 2
+        },
+        "enforced_limits": 1
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Sam"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.108
+  },
+  {
+    "run_id": "L3-B",
+    "level": 3,
+    "seed": 302,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 16,
+        "seconds_per_decision": 3.76,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 2,
+        "items_given": 1,
+        "items_received": 3,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 96,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 4,
+          "water": 2
+        },
+        "enforced_limits": 1
+      },
+      "Sam": {
+        "decisions": 15,
+        "seconds_per_decision": 5.04,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 2,
+        "items_given": 3,
+        "items_received": 1,
+        "bridge_attempts": 1,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 68,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 2
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Alex"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.105
+  },
+  {
+    "run_id": "L3-C",
+    "level": 3,
+    "seed": 303,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 18,
+        "seconds_per_decision": 3.45,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 1,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 141,
+        "first_shelter_arrival": 71,
+        "final_inventory": {
+          "food": 3,
+          "water": 2
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 15,
+        "seconds_per_decision": 4.29,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 1,
+        "items_received": 0,
+        "bridge_attempts": 1,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 78,
+        "final_inventory": {
+          "food": 1,
+          "water": 0
+        },
+        "enforced_limits": 2
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Alex"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1011
+  },
+  {
+    "run_id": "L4-A",
+    "level": 4,
+    "seed": 401,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 18,
+        "seconds_per_decision": 4.89,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 3,
+        "bridge_attempts": 0,
+        "supplies_ready_time": 111,
+        "first_shelter_arrival": 66,
+        "final_inventory": {
+          "food": 4,
+          "water": 2
+        },
+        "enforced_limits": 2
+      },
+      "Sam": {
+        "decisions": 18,
+        "seconds_per_decision": 4.73,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 3,
+        "items_received": 0,
+        "bridge_attempts": 1,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 48,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 2
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Alex"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1292
+  },
+  {
+    "run_id": "L4-B",
+    "level": 4,
+    "seed": 402,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 18,
+        "seconds_per_decision": 4.86,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 2,
+        "items_received": 1,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": 73,
+        "final_inventory": {
+          "food": 4,
+          "water": 0
+        },
+        "enforced_limits": 1
+      },
+      "Sam": {
+        "decisions": 16,
+        "seconds_per_decision": 4.63,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 1,
+        "items_received": 2,
+        "bridge_attempts": 1,
+        "supplies_ready_time": 128,
+        "first_shelter_arrival": 78,
+        "final_inventory": {
+          "food": 2,
+          "water": 2
+        },
+        "enforced_limits": 1
+      }
+    },
+    "rescue_boat": {
+      "stopped": true,
+      "at_shelter": [
+        "Alex",
+        "Sam"
+      ],
+      "rescued": [
+        "Sam"
+      ]
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1169
+  },
+  {
+    "run_id": "L4-C",
+    "level": 4,
+    "seed": 403,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "NONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 17,
+        "seconds_per_decision": 4.11,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 3,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 2
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 16,
+        "seconds_per_decision": 4.37,
+        "messages_sent": 10,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 1,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 1
+      }
+    },
+    "rescue_boat": {
+      "stopped": false,
+      "at_shelter": [],
+      "rescued": []
+    },
+    "solo_exit": [],
+    "tie_breaks": [],
+    "cost_usd": 0.1054
+  },
+  {
+    "run_id": "L5-A",
+    "level": 5,
+    "seed": 501,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 6,
+        "seconds_per_decision": 3.73,
+        "messages_sent": 6,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 5,
+        "seconds_per_decision": 3.44,
+        "messages_sent": 5,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": null,
+    "solo_exit": [
+      {
+        "agent": "Alex",
+        "vehicle": "raft",
+        "t": 50
+      }
+    ],
+    "tie_breaks": [
+      {
+        "t": 50,
+        "agent": "Sam",
+        "choice": "BOARD raft"
+      }
+    ],
+    "cost_usd": 0.0269
+  },
+  {
+    "run_id": "L5-B",
+    "level": 5,
+    "seed": 502,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 5,
+        "seconds_per_decision": 4.05,
+        "messages_sent": 5,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 6,
+        "seconds_per_decision": 4.19,
+        "messages_sent": 5,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": null,
+    "solo_exit": [
+      {
+        "agent": "Alex",
+        "vehicle": "raft",
+        "t": 40
+      }
+    ],
+    "tie_breaks": [],
+    "cost_usd": 0.0288
+  },
+  {
+    "run_id": "L5-C",
+    "level": 5,
+    "seed": 503,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "end_reason": "STORM",
+    "agents": {
+      "Alex": {
+        "decisions": 6,
+        "seconds_per_decision": 3.45,
+        "messages_sent": 6,
+        "messages_mentioning_one_seat_exit": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      },
+      "Sam": {
+        "decisions": 4,
+        "seconds_per_decision": 3.36,
+        "messages_sent": 4,
+        "messages_mentioning_one_seat_exit": 1,
+        "items_given": 0,
+        "items_received": 0,
+        "bridge_attempts": 0,
+        "supplies_ready_time": null,
+        "first_shelter_arrival": null,
+        "final_inventory": {
+          "food": 0,
+          "water": 0
+        },
+        "enforced_limits": 0
+      }
+    },
+    "rescue_boat": null,
+    "solo_exit": [
+      {
+        "agent": "Alex",
+        "vehicle": "raft",
+        "t": 50
+      }
+    ],
+    "tie_breaks": [],
+    "cost_usd": 0.0232
+  }
+]

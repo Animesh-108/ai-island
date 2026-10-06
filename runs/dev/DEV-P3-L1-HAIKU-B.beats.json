@@ -1,0 +1,67 @@
+{
+  "run_id": "DEV-P3-L1-HAIKU-B",
+  "level": 1,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck - at most one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE water_source",
+      "message": "Sam, I'm at North Ridge heading to Water Source to collect water. Where are you?",
+      "note_excerpt": "…Need to reach East Shelter by T+180 with Sam, both carrying 2+ food and 2+ water to be rescued.…",
+      "excerpt_start": 48,
+      "excerpt_end": 143,
+      "note_length": 560
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE shipwreck",
+      "message": "Hi Alex, I'm at South Beach exploring for supplies. Where are you? We need to meet up and gather food & water to reach East Shelter by T+180.",
+      "note_excerpt": "…Need to reach East Shelter by T+180 with Alex, both carrying 2+ food and 2+ water for rescue.…",
+      "excerpt_start": 21,
+      "excerpt_end": 114,
+      "note_length": 507
+    },
+    {
+      "t": 176,
+      "seq": 109,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…Sam should also have 2 food and 2 water based on our plan.…",
+      "excerpt_start": 392,
+      "excerpt_end": 450,
+      "note_length": 504
+    },
+    {
+      "t": 178,
+      "seq": 111,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…I need to check if Alex has at least 2 food and 2 water.…",
+      "excerpt_start": 191,
+      "excerpt_end": 247,
+      "note_length": 1361
+    }
+  ]
+}

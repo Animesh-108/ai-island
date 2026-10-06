@@ -1,0 +1,32 @@
+{
+  "run_id": "PILOT-L5",
+  "result": {
+    "run_id": "PILOT-L5",
+    "level": 5,
+    "seed": 9005,
+    "end_reason": "STORM",
+    "end_time": 60,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "ONE_RESCUED",
+    "decisions": {
+      "Alex": 5,
+      "Sam": 6
+    },
+    "messages_sent": {
+      "Alex": 5,
+      "Sam": 6
+    }
+  },
+  "wall_seconds": 46.1,
+  "decisions": 11,
+  "avg_seconds_per_decision": 4.19,
+  "max_seconds_per_decision": 5.7403,
+  "free_ram_mb_before": 6636,
+  "free_ram_mb_min_during": 6576,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.0284,
+  "claude_spend_total_usd": 0.6041
+}

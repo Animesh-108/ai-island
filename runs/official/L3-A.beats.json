@@ -1,0 +1,144 @@
+{
+  "run_id": "L3-A",
+  "level": 3,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE water_source",
+      "message": "Sam, I'm at North Ridge heading to Water Source. Plan to meet at East Shelter with supplies for rescue boat at T+180. Reply with your location.",
+      "note_excerpt": "…Need to communicate with Sam soon to avoid him taking the small boat.",
+      "excerpt_start": 559,
+      "excerpt_end": 628,
+      "note_length": 628
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Hi Alex, I'm at South Beach. Going to Food Grove to gather supplies. Let's meet at Central Camp soon.",
+      "note_excerpt": "…I should aim for the T+180 rescue boat with Alex.…",
+      "excerpt_start": 527,
+      "excerpt_end": 576,
+      "note_length": 621
+    },
+    {
+      "t": 10,
+      "seq": 14,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "after finding the bridge broken"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Bridge broken! Going around via Central Camp to meet you at Food Grove. See you soon.",
+      "note_excerpt": "…I need to get supplies and meet Alex.…",
+      "excerpt_start": 499,
+      "excerpt_end": 536,
+      "note_length": 650
+    },
+    {
+      "t": 48,
+      "seq": 38,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Heading to Food Grove now. See you there!",
+      "note_excerpt": "…This matches my plan - meet Alex at Food Grove to gather supplies.…",
+      "excerpt_start": 220,
+      "excerpt_end": 286,
+      "note_length": 585
+    },
+    {
+      "t": 68,
+      "seq": 52,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "COLLECT food",
+      "message": "At Food Grove collecting supplies. You ETA T+81?",
+      "note_excerpt": "…Alex arrives T+81, so if I WAIT 10 after collecting, I'll be at T+83, close enough to meet Alex.…",
+      "excerpt_start": 276,
+      "excerpt_end": 372,
+      "note_length": 594
+    },
+    {
+      "t": 93,
+      "seq": 71,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE east_shelter",
+      "message": "",
+      "note_excerpt": "…Sam here with 2 food, 0 water.…",
+      "excerpt_start": 48,
+      "excerpt_end": 78,
+      "note_length": 2307
+    },
+    {
+      "t": 93,
+      "seq": 72,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, finish collecting! We need to move FAST to Water Source then East Shelter. Time is critical!",
+      "note_excerpt": "…' - Alex seems committed to East Shelter plan, not the small boat.…",
+      "excerpt_start": 1369,
+      "excerpt_end": 1435,
+      "note_length": 1487
+    },
+    {
+      "t": 178,
+      "seq": 104,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "GIVE food",
+      "message": "",
+      "note_excerpt": "…Sam is here.…",
+      "excerpt_start": 134,
+      "excerpt_end": 146,
+      "note_length": 624
+    },
+    {
+      "t": 178,
+      "seq": 105,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…I should WAIT 10 - during this wait period, the boat will arrive at T+180 (2 minutes into the wait), we'll light the signal fire together, and be rescued.…",
+      "excerpt_start": 945,
+      "excerpt_end": 1099,
+      "note_length": 1178
+    }
+  ]
+}

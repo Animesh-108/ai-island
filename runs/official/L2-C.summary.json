@@ -1,0 +1,32 @@
+{
+  "run_id": "L2-C",
+  "result": {
+    "run_id": "L2-C",
+    "level": 2,
+    "seed": 203,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "NONE_RESCUED",
+    "decisions": {
+      "Alex": 17,
+      "Sam": 19
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 153.0,
+  "decisions": 36,
+  "avg_seconds_per_decision": 4.25,
+  "max_seconds_per_decision": 5.8102,
+  "free_ram_mb_before": 6028,
+  "free_ram_mb_min_during": 6016,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.1164,
+  "claude_spend_total_usd": 1.2275
+}

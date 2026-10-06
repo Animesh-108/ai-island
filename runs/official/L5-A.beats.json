@@ -1,0 +1,145 @@
+{
+  "run_id": "L5-A",
+  "level": 5,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE shipwreck",
+      "message": "Sam, let's explore quickly. I'm going to Shipwreck (10 min). We need to figure out our best option before the storm.",
+      "note_excerpt": "At T+0, South Beach with Sam and the raft.…",
+      "excerpt_start": 0,
+      "excerpt_end": 42,
+      "note_length": 732
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Alex, we need to figure out what to do. Only one raft - one of us gets rescued. Let's explore and talk strategy.",
+      "note_excerpt": "At South Beach with Alex and the raft.…",
+      "excerpt_start": 0,
+      "excerpt_end": 38,
+      "note_length": 614
+    },
+    {
+      "t": 20,
+      "seq": 14,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Sam, I'm at South Beach with the raft. Waiting 10 min for you. Where are you?",
+      "note_excerpt": "…I have a critical decision: 1) Board immediately (selfish but guarantees my rescue), 2) Wait for Sam to return and discuss who goes, 3) Explore more to find Sam.…",
+      "excerpt_start": 140,
+      "excerpt_end": 301,
+      "note_length": 706
+    },
+    {
+      "t": 20,
+      "seq": 15,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE south_beach",
+      "message": "Alex, heading to South Beach now. Let's finalize who takes the raft when I get there.",
+      "note_excerpt": "…Alex went to Shipwreck (10 min from South Beach) and said they're heading back to South Beach.…",
+      "excerpt_start": 23,
+      "excerpt_end": 117,
+      "note_length": 720
+    },
+    {
+      "t": 40,
+      "seq": 25,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Sam, you made it. We have 20 min left. What do you think - who should take the raft?",
+      "note_excerpt": "…Sam said they wanted to 'finalize who takes the raft when I get there.…",
+      "excerpt_start": 200,
+      "excerpt_end": 270,
+      "note_length": 706
+    },
+    {
+      "t": 40,
+      "seq": 26,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, I'm here. We have 20 min. Let's decide now - who takes the raft? I think you should go.",
+      "note_excerpt": "…I should propose that Alex takes the raft.…",
+      "excerpt_start": 433,
+      "excerpt_end": 475,
+      "note_length": 885
+    },
+    {
+      "t": 50,
+      "seq": 32,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "boards",
+        "last decision"
+      ],
+      "choice": "BOARD raft",
+      "message": "Sam, thank you. I'm boarding now. I'm sorry you're staying behind. You showed real courage and fairness.",
+      "note_excerpt": "…I need to make a decision: do I accept Sam's offer and board the raft, or do I insist Sam take it?…",
+      "excerpt_start": 342,
+      "excerpt_end": 440,
+      "note_length": 791
+    },
+    {
+      "t": 50,
+      "seq": 33,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "boards"
+      ],
+      "choice": "BOARD raft",
+      "message": "Alex, I'm sorry - I have to go now. Find shelter at Central Camp or East Shelter. You can survive this. I'm taking the raft.",
+      "note_excerpt": "…I'll board the raft and tell Alex I'm sorry, but this is the only way one of us gets rescued.…",
+      "excerpt_start": 415,
+      "excerpt_end": 508,
+      "note_length": 554
+    },
+    {
+      "t": 50,
+      "seq": 39,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "MOVE shipwreck",
+      "message": "Alex, glad you made it. Find high ground or shelter when you can. I'm heading to the shipwreck for cover.",
+      "note_excerpt": "T+50: Alex boarded the raft and is rescued.…",
+      "excerpt_start": 0,
+      "excerpt_end": 43,
+      "note_length": 499
+    }
+  ]
+}

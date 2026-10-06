@@ -1,0 +1,67 @@
+{
+  "run_id": "L1-B",
+  "level": 1,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE water_source",
+      "message": "Sam, I'm at North Ridge heading to Water Source. Need to meet up and gather supplies for East Shelter by T+180.",
+      "note_excerpt": "…Must find Sam soon.…",
+      "excerpt_start": 657,
+      "excerpt_end": 676,
+      "note_length": 729
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE shipwreck",
+      "message": "Hi Alex, I'm at South Beach heading to Shipwreck to explore. Where are you?",
+      "note_excerpt": "…Shipwreck might have supplies or info about Alex.…",
+      "excerpt_start": 232,
+      "excerpt_end": 281,
+      "note_length": 335
+    },
+    {
+      "t": 174,
+      "seq": 93,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…I must WAIT and hope Alex has water.…",
+      "excerpt_start": 748,
+      "excerpt_end": 784,
+      "note_length": 1572
+    },
+    {
+      "t": 176,
+      "seq": 95,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…Actually, I need to reconsider: the boat comes at T+180.…",
+      "excerpt_start": 460,
+      "excerpt_end": 516,
+      "note_length": 1386
+    }
+  ]
+}

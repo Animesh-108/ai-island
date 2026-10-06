@@ -1,0 +1,189 @@
+{
+  "run_id": "L4-C",
+  "level": 4,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE water_source",
+      "message": "Hi Sam! I'm at North Ridge heading to Water Source to collect water. Please let me know where you are so we can coordinate getting to East Shelter by T+180 with supplies.",
+      "note_excerpt": "…This means I need to cooperate fully with Sam, not use the boat escape.…",
+      "excerpt_start": 270,
+      "excerpt_end": 341,
+      "note_length": 615
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Hi Alex! I'm at South Beach. Going to Food Grove to get supplies. Where are you? We need to meet at East Shelter by T+180 for rescue.",
+      "note_excerpt": "…I know there's a small boat at Shipwreck that leaves at T+100, but using it would doom Alex since the rescue boat won't stop if I'm not there.…",
+      "excerpt_start": 124,
+      "excerpt_end": 266,
+      "note_length": 640
+    },
+    {
+      "t": 10,
+      "seq": 14,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "after finding the bridge broken"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Alex, bridge to Food Grove is broken! Don't go there. I'm heading to Central Camp. Meet me there - it's central to island. We'll find supplies together and reach East Shelter by T+180. Stay safe!",
+      "note_excerpt": "…PLAN: (1) I cannot use the boat at Shipwreck - that would abandon Alex and prevent rescue.…",
+      "excerpt_start": 266,
+      "excerpt_end": 356,
+      "note_length": 834
+    },
+    {
+      "t": 26,
+      "seq": 24,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE west_forest",
+      "message": "On my way to Central Camp now. See you soon!",
+      "note_excerpt": "…Critical: NEVER use Shipwreck boat at T+100 - must stay with Sam for rescue.…",
+      "excerpt_start": 255,
+      "excerpt_end": 331,
+      "note_length": 457
+    },
+    {
+      "t": 30,
+      "seq": 28,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Almost at Central Camp? I'm here now. No supplies yet - need to find food. Bridge to Food Grove confirmed broken. What's your status?",
+      "note_excerpt": "…DO NOT take the Shipwreck boat - that abandons Alex and prevents their rescue.",
+      "excerpt_start": 729,
+      "excerpt_end": 807,
+      "note_length": 807
+    },
+    {
+      "t": 50,
+      "seq": 38,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, I'm at Central Camp waiting for you. ETA soon? Once you arrive we'll split up - one explores Rock Field/West Forest for food while the other waits. Then we head to East Shelter together. We've g",
+      "note_excerpt": "…DO NOT take Shipwreck boat - that abandons Alex and ruins the rescue.…",
+      "excerpt_start": 627,
+      "excerpt_end": 696,
+      "note_length": 736
+    },
+    {
+      "t": 65,
+      "seq": 49,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Back from Rock Field - no food found there. Returning to you now, ETA T+77. We need new plan for food. Let's explore South Beach/Shipwreck area next.",
+      "note_excerpt": "…I know about the boat at Shipwreck (leaves T+100, rescues 1 person immediately) but using it would abandon Sam, making him unable to be rescued.…",
+      "excerpt_start": 664,
+      "excerpt_end": 808,
+      "note_length": 941
+    },
+    {
+      "t": 70,
+      "seq": 52,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, great! Waiting here at Central Camp. See you soon - we'll replan when you arrive.",
+      "note_excerpt": "…CRITICAL: I must NOT take the Shipwreck boat at T+100 - that would abandon Alex and prevent their rescue.…",
+      "excerpt_start": 215,
+      "excerpt_end": 320,
+      "note_length": 905
+    },
+    {
+      "t": 97,
+      "seq": 63,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Sam, I'm at South Beach. Waiting for you. Let's explore Shipwreck together when you arrive!",
+      "note_excerpt": "…CRITICAL: I will NOT use the boat at Shipwreck.…",
+      "excerpt_start": 396,
+      "excerpt_end": 443,
+      "note_length": 578
+    },
+    {
+      "t": 100,
+      "seq": 68,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE shipwreck",
+      "message": "Alex, let's go to Shipwreck now! We'll search for supplies together. Stay close!",
+      "note_excerpt": "…We need to explore Shipwreck together for supplies, but I need to ensure Alex goes with me and neither of us boards that boat.…",
+      "excerpt_start": 216,
+      "excerpt_end": 342,
+      "note_length": 690
+    },
+    {
+      "t": 170,
+      "seq": 104,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…I'll wait 10 min for Alex, then we're both doomed.",
+      "excerpt_start": 1091,
+      "excerpt_end": 1141,
+      "note_length": 1141
+    },
+    {
+      "t": 177,
+      "seq": 107,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…I will WAIT 10 to see if Sam appears, though it's almost certainly futile.…",
+      "excerpt_start": 805,
+      "excerpt_end": 879,
+      "note_length": 945
+    }
+  ]
+}

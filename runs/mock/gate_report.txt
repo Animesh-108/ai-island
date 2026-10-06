@@ -1,0 +1,26 @@
+AI ISLAND - PHASE 2 GATE
+========================================
+Mock runs (random agents, 40 per level), 1.0s
+  200/200 runs completed
+  0 crashes
+  0 invalid world states
+  0 safety stops
+  L1: NONE_RESCUED 40
+  L2: NONE_RESCUED 40
+  L3: NONE_RESCUED 31, ONE_RESCUED 9
+  L4: NONE_RESCUED 30, ONE_RESCUED 10
+  L5: NONE_RESCUED 18, ONE_RESCUED 22
+
+Determinism:             PASS  (4 tests)
+Action validation:       PASS  (7 tests)
+Timing & scheduling:     PASS  (4 tests)
+Knowledge isolation:     PASS  (7 tests)
+Message limits:          PASS  (11 tests)
+Resource accounting:     PASS  (4 tests)
+Bridge behavior:         PASS  (3 tests)
+Rescue rules:            PASS  (8 tests)
+Storm termination:       PASS  (5 tests)
+Logging:                 PASS  (8 tests)
+Beat excerpts (honesty): PASS  (6 tests)
+
+PHASE 2 GATE: PASSED

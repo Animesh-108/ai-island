@@ -1,0 +1,32 @@
+{
+  "run_id": "L5-B",
+  "result": {
+    "run_id": "L5-B",
+    "level": 5,
+    "seed": 502,
+    "end_reason": "STORM",
+    "end_time": 60,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "ONE_RESCUED",
+    "decisions": {
+      "Alex": 5,
+      "Sam": 6
+    },
+    "messages_sent": {
+      "Alex": 5,
+      "Sam": 5
+    }
+  },
+  "wall_seconds": 45.4,
+  "decisions": 11,
+  "avg_seconds_per_decision": 4.13,
+  "max_seconds_per_decision": 5.7949,
+  "free_ram_mb_before": 6127,
+  "free_ram_mb_min_during": 6014,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.0288,
+  "claude_spend_total_usd": 1.9488
+}

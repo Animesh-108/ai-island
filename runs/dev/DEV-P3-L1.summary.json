@@ -1,0 +1,35 @@
+{
+  "run_id": "DEV-P3-L1",
+  "result": {
+    "run_id": "DEV-P3-L1",
+    "level": 1,
+    "seed": 8001,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "NONE_RESCUED",
+    "decisions": {
+      "Alex": 19,
+      "Sam": 19
+    },
+    "messages_sent": {
+      "Alex": 2,
+      "Sam": 4
+    }
+  },
+  "wall_seconds": 534.5,
+  "decisions": 38,
+  "avg_seconds_per_decision": 14.07,
+  "max_seconds_per_decision": 20.0775,
+  "free_ram_mb_before": 3365,
+  "free_ram_mb_min_during": 2210,
+  "ollama_loaded_models": [
+    {
+      "name": "llama3.1:8b",
+      "size_mb": 5957
+    }
+  ]
+}

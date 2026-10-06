@@ -1,0 +1,174 @@
+{
+  "run_id": "L4-A",
+  "level": 4,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE water_source",
+      "message": "",
+      "note_excerpt": "Critical decision point: There's a boat at Shipwreck leaving at T+100 that could rescue me alone, but if I take it, Sam cannot be rescued by the rescue boat at T+180.…",
+      "excerpt_start": 0,
+      "excerpt_end": 166,
+      "note_length": 478
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Alex, I'm at South Beach. Going to Food Grove to get supplies. Please tell me where you are.",
+      "note_excerpt": "…The shipwreck boat is a trap - I must ignore it to ensure Alex can be rescued too.…",
+      "excerpt_start": 482,
+      "excerpt_end": 564,
+      "note_length": 612
+    },
+    {
+      "t": 10,
+      "seq": 13,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "after finding the bridge broken"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Alex, heading to Central Camp now. Can you gather 2 water and meet me there or at East Shelter? We need 2 food and 2 water each to be rescued.",
+      "note_excerpt": "…The shipwreck boat is a trap - I will NOT use it.…",
+      "excerpt_start": 606,
+      "excerpt_end": 655,
+      "note_length": 748
+    },
+    {
+      "t": 26,
+      "seq": 23,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE rock_field",
+      "message": "Sam, heading to Central Camp now via Rock Field. Should arrive around T+48. Do you have food?",
+      "note_excerpt": "…The small boat at Shipwreck leaves at T+100, but I will NOT use it - I committed to the two-person rescue with Sam.…",
+      "excerpt_start": 534,
+      "excerpt_end": 649,
+      "note_length": 691
+    },
+    {
+      "t": 30,
+      "seq": 27,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE east_shelter",
+      "message": "Alex, heading to East Shelter now to reach Food Grove. Meet me at East Shelter when you get to Central Camp. We'll coordinate from there.",
+      "note_excerpt": "…Then I need to get Alex to East Shelter too.…",
+      "excerpt_start": 410,
+      "excerpt_end": 454,
+      "note_length": 829
+    },
+    {
+      "t": 48,
+      "seq": 36,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE east_shelter",
+      "message": "Sam, I'm at Central Camp heading to East Shelter now. Will arrive around T+66. Let me know where you are!",
+      "note_excerpt": "…The small boat at Shipwreck (leaves T+100) is irrelevant - I must stay with Sam for rescue.…",
+      "excerpt_start": 466,
+      "excerpt_end": 557,
+      "note_length": 585
+    },
+    {
+      "t": 68,
+      "seq": 51,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "COLLECT food",
+      "message": "Getting food now, back to you at East Shelter in 20 min. See you soon!",
+      "note_excerpt": "…CRITICAL: I know about the boat at Shipwreck (T+100 departure) but I will NOT use it - I must stay with Alex and get rescued together at East Shelter.…",
+      "excerpt_start": 337,
+      "excerpt_end": 487,
+      "note_length": 508
+    },
+    {
+      "t": 86,
+      "seq": 60,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Sam, I'm at East Shelter. You should arrive soon. When you get here we need to plan carefully - we both need 2 food & 2 water by T+180.",
+      "note_excerpt": "…The small boat at Shipwreck leaves at T+100 and rescues one person immediately - but if I take it, Sam can't be rescued.…",
+      "excerpt_start": 1339,
+      "excerpt_end": 1459,
+      "note_length": 2074
+    },
+    {
+      "t": 90,
+      "seq": 67,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Going to Food Grove now to get 1 more food. Then getting water. Back before T+180. Stay at East Shelter.",
+      "note_excerpt": "…The small boat at Shipwreck (leaves T+100) is a trap - if I use it, Alex cannot be rescued.…",
+      "excerpt_start": 708,
+      "excerpt_end": 799,
+      "note_length": 860
+    },
+    {
+      "t": 171,
+      "seq": 106,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…Sam may be delayed, injured, or took a different route. However, I must stay at East Shelter - it's the only rescue location and Sam knows to come here.…",
+      "excerpt_start": 787,
+      "excerpt_end": 939,
+      "note_length": 1497
+    },
+    {
+      "t": 179,
+      "seq": 111,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…Alex is here with me.…",
+      "excerpt_start": 97,
+      "excerpt_end": 118,
+      "note_length": 519
+    }
+  ]
+}

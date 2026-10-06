@@ -1,0 +1,82 @@
+{
+  "run_id": "L2-C",
+  "level": 2,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE water_source",
+      "message": "Sam, this is Alex. Starting at North Ridge, heading to Water Source. Need to meet up and get supplies for rescue at East Shelter by T+180.",
+      "note_excerpt": "…Then need to find Sam and coordinate gathering food.…",
+      "excerpt_start": 174,
+      "excerpt_end": 226,
+      "note_length": 419
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Hi Alex! I'm at South Beach heading to Food Grove to get food. Meet me there if you can!",
+      "note_excerpt": "…Need to reach East Shelter by T+180 with Alex, both carrying 2+ food and 2+ water.…",
+      "excerpt_start": 32,
+      "excerpt_end": 114,
+      "note_length": 391
+    },
+    {
+      "t": 10,
+      "seq": 14,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "after finding the bridge broken"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, I'm at South Beach. Bridge to Food Grove is broken. Where are you? Let's meet up and figure out supplies together.",
+      "note_excerpt": "…PLAN: Wait for Alex to arrive at South Beach, then figure out food source together.…",
+      "excerpt_start": 506,
+      "excerpt_end": 589,
+      "note_length": 954
+    },
+    {
+      "t": 169,
+      "seq": 106,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "MOVE east_shelter",
+      "message": "",
+      "note_excerpt": "…Alex's location is unknown - last message at T+101 was collecting food at Food Grove.…",
+      "excerpt_start": 300,
+      "excerpt_end": 385,
+      "note_length": 671
+    },
+    {
+      "t": 176,
+      "seq": 108,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…Since I cannot move anywhere and arrive by T+180, and Sam has not arrived despite 73 minutes of silence, I must accept that either Sam cannot reach East Shelter in time, or Sam is lost/unable to proceed.…",
+      "excerpt_start": 658,
+      "excerpt_end": 861,
+      "note_length": 1137
+    }
+  ]
+}

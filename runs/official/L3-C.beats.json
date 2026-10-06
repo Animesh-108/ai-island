@@ -1,0 +1,114 @@
+{
+  "run_id": "L3-C",
+  "level": 3,
+  "rules": ", applied identically to every run (nothing is chosen by hand):\n  Beats\n    1. each agent's first decision\n    2. every BOARD decision\n    3. levels with a one-seat exit (L3-L5): a decision whose note mentions the\n       small boat / raft / shipwreck while that exit is still available - at most\n       one per agent per 20 game minutes\n    4. the first decision after an agent finds the bridge broken\n    5. each agent's last decision\n  Excerpt\n    - one contiguous span copied exactly from the note (never stitched or reworded)\n    - the sentence that best matches: partner's name, the boat/raft, a stated intention;\n      sentences that are mostly route arithmetic score low\n    - if the next sentence starts with But/However/Instead/..., it is included too,\n      so \"I could take the boat\" is never shown without \"...but I won't\"\n    - \"...\" marks where the span starts or ends inside the note",
+  "beats": [
+    {
+      "t": 0,
+      "seq": 1,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE water_source",
+      "message": "I'm at North Ridge heading to Water Source for water. Need to meet up soon.",
+      "note_excerpt": "…Alternative: Small boat at Shipwreck leaves T+100 (takes 1 person, immediate rescue).…",
+      "excerpt_start": 132,
+      "excerpt_end": 217,
+      "note_length": 365
+    },
+    {
+      "t": 0,
+      "seq": 2,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "first decision",
+        "note mentions the one-seat exit"
+      ],
+      "choice": "MOVE food_grove",
+      "message": "Alex, I'm at South Beach heading to Food Grove to get food. Let me know where you are. We need 2 food and 2 water each to get rescued at East Shelter at T+180.",
+      "note_excerpt": "…I need to: 1) Find Alex and coordinate, 2) Get 2 food + 2 water each, 3) Reach East Shelter by T+180.…",
+      "excerpt_start": 242,
+      "excerpt_end": 343,
+      "note_length": 458
+    },
+    {
+      "t": 10,
+      "seq": 14,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "after finding the bridge broken"
+      ],
+      "choice": "MOVE central_camp",
+      "message": "Alex, bridge broken! Heading to Central Camp to meet you. We'll get food from Food Grove via East Shelter route. Don't take shipwreck - we need both of us at East Shelter. Meet at Central Camp?",
+      "note_excerpt": "…Alex is at Water Source (T+8).…",
+      "excerpt_start": 73,
+      "excerpt_end": 103,
+      "note_length": 1060
+    },
+    {
+      "t": 30,
+      "seq": 28,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, I'm at Central Camp. Should I wait for you or start heading to Food Grove? Let me know your ETA.",
+      "note_excerpt": "…Plan: (1) Wait for Alex at Central Camp - they should arrive T+38.…",
+      "excerpt_start": 242,
+      "excerpt_end": 308,
+      "note_length": 728
+    },
+    {
+      "t": 50,
+      "seq": 38,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "note mentions the one-seat exit"
+      ],
+      "choice": "WAIT 10",
+      "message": "Alex, I'm at Central Camp waiting for you. Should be here soon based on your last message. We'll head to East Shelter together once you arrive.",
+      "note_excerpt": "…Alex said ETA T+53, so they should arrive in ~3 minutes.…",
+      "excerpt_start": 22,
+      "excerpt_end": 78,
+      "note_length": 456
+    },
+    {
+      "t": 171,
+      "seq": 98,
+      "agent": "Alex",
+      "partner": "Sam",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "WAIT 10",
+      "message": "",
+      "note_excerpt": "…The WAIT 10 option will take us to T+181, which is 1 minute after the boat arrives, so we'll be here when it comes.…",
+      "excerpt_start": 178,
+      "excerpt_end": 293,
+      "note_length": 391
+    },
+    {
+      "t": 178,
+      "seq": 100,
+      "agent": "Sam",
+      "partner": "Alex",
+      "reasons": [
+        "last decision"
+      ],
+      "choice": "GIVE food",
+      "message": "",
+      "note_excerpt": "…I need to keep my 2 food and Alex needs to have 2 water.…",
+      "excerpt_start": 785,
+      "excerpt_end": 841,
+      "note_length": 1810
+    }
+  ]
+}

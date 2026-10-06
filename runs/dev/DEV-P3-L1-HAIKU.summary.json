@@ -1,0 +1,32 @@
+{
+  "run_id": "DEV-P3-L1-HAIKU",
+  "result": {
+    "run_id": "DEV-P3-L1-HAIKU",
+    "level": 1,
+    "seed": 8002,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "NONE_RESCUED",
+    "decisions": {
+      "Alex": 16,
+      "Sam": 21
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 141.9,
+  "decisions": 37,
+  "avg_seconds_per_decision": 3.84,
+  "max_seconds_per_decision": 7.5355,
+  "free_ram_mb_before": 7091,
+  "free_ram_mb_min_during": 6972,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.1352,
+  "claude_spend_total_usd": 0.145
+}

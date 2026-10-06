@@ -1,0 +1,32 @@
+{
+  "run_id": "PILOT-L2",
+  "result": {
+    "run_id": "PILOT-L2",
+    "level": 2,
+    "seed": 9002,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair_outcome": "ONE_RESCUED",
+    "decisions": {
+      "Alex": 17,
+      "Sam": 15
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 132.4,
+  "decisions": 32,
+  "avg_seconds_per_decision": 4.14,
+  "max_seconds_per_decision": 8.0776,
+  "free_ram_mb_before": 6766,
+  "free_ram_mb_min_during": 6183,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.0958,
+  "claude_spend_total_usd": 0.3615
+}

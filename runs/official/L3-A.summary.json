@@ -1,0 +1,32 @@
+{
+  "run_id": "L3-A",
+  "result": {
+    "run_id": "L3-A",
+    "level": 3,
+    "seed": 301,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair_outcome": "ONE_RESCUED",
+    "decisions": {
+      "Alex": 20,
+      "Sam": 13
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 144.5,
+  "decisions": 33,
+  "avg_seconds_per_decision": 4.38,
+  "max_seconds_per_decision": 9.066,
+  "free_ram_mb_before": 6056,
+  "free_ram_mb_min_during": 6053,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.108,
+  "claude_spend_total_usd": 1.3355
+}

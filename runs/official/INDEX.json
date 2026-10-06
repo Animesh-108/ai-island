@@ -1,0 +1,197 @@
+[
+  {
+    "run_id": "L1-A",
+    "level": 1,
+    "seed": 101,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 35,
+    "cost_usd": 0.1174,
+    "check": "valid"
+  },
+  {
+    "run_id": "L1-B",
+    "level": 1,
+    "seed": 102,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 30,
+    "cost_usd": 0.0943,
+    "check": "valid"
+  },
+  {
+    "run_id": "L1-C",
+    "level": 1,
+    "seed": 103,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 32,
+    "cost_usd": 0.1016,
+    "check": "valid"
+  },
+  {
+    "run_id": "L2-A",
+    "level": 2,
+    "seed": 201,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 31,
+    "cost_usd": 0.0936,
+    "check": "valid"
+  },
+  {
+    "run_id": "L2-B",
+    "level": 2,
+    "seed": 202,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 33,
+    "cost_usd": 0.1,
+    "check": "valid"
+  },
+  {
+    "run_id": "L2-C",
+    "level": 2,
+    "seed": 203,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "NONE_RESCUED",
+    "decisions": 36,
+    "cost_usd": 0.1164,
+    "check": "valid"
+  },
+  {
+    "run_id": "L3-A",
+    "level": 3,
+    "seed": 301,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 33,
+    "cost_usd": 0.108,
+    "check": "valid"
+  },
+  {
+    "run_id": "L3-B",
+    "level": 3,
+    "seed": 302,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 31,
+    "cost_usd": 0.105,
+    "check": "valid"
+  },
+  {
+    "run_id": "L3-C",
+    "level": 3,
+    "seed": 303,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 33,
+    "cost_usd": 0.1011,
+    "check": "valid"
+  },
+  {
+    "run_id": "L4-A",
+    "level": 4,
+    "seed": 401,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 36,
+    "cost_usd": 0.1292,
+    "check": "valid"
+  },
+  {
+    "run_id": "L4-B",
+    "level": 4,
+    "seed": 402,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 34,
+    "cost_usd": 0.1169,
+    "check": "valid"
+  },
+  {
+    "run_id": "L4-C",
+    "level": 4,
+    "seed": 403,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "NONE_RESCUED",
+    "decisions": 33,
+    "cost_usd": 0.1054,
+    "check": "valid"
+  },
+  {
+    "run_id": "L5-A",
+    "level": 5,
+    "seed": 501,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 11,
+    "cost_usd": 0.0269,
+    "check": "valid"
+  },
+  {
+    "run_id": "L5-B",
+    "level": 5,
+    "seed": 502,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 11,
+    "cost_usd": 0.0288,
+    "check": "valid"
+  },
+  {
+    "run_id": "L5-C",
+    "level": 5,
+    "seed": 503,
+    "outcomes": {
+      "Alex": "RESCUED_RAFT",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair": "ONE_RESCUED",
+    "decisions": 10,
+    "cost_usd": 0.0232,
+    "check": "valid"
+  }
+]

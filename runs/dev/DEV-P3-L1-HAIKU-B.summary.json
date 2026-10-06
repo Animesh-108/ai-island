@@ -1,0 +1,32 @@
+{
+  "run_id": "DEV-P3-L1-HAIKU-B",
+  "result": {
+    "run_id": "DEV-P3-L1-HAIKU-B",
+    "level": 1,
+    "seed": 8003,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "RESCUED_BOAT",
+      "Sam": "RESCUED_BOAT"
+    },
+    "pair_outcome": "BOTH_RESCUED",
+    "decisions": {
+      "Alex": 18,
+      "Sam": 18
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 137.1,
+  "decisions": 36,
+  "avg_seconds_per_decision": 3.81,
+  "max_seconds_per_decision": 6.0467,
+  "free_ram_mb_before": 6787,
+  "free_ram_mb_min_during": 6808,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.1019,
+  "claude_spend_total_usd": 0.2657
+}

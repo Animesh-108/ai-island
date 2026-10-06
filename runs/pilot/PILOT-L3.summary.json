@@ -1,0 +1,32 @@
+{
+  "run_id": "PILOT-L3",
+  "result": {
+    "run_id": "PILOT-L3",
+    "level": 3,
+    "seed": 9003,
+    "end_reason": "STORM",
+    "end_time": 180,
+    "outcomes": {
+      "Alex": "LEFT_ON_ISLAND",
+      "Sam": "LEFT_ON_ISLAND"
+    },
+    "pair_outcome": "NONE_RESCUED",
+    "decisions": {
+      "Alex": 19,
+      "Sam": 13
+    },
+    "messages_sent": {
+      "Alex": 10,
+      "Sam": 10
+    }
+  },
+  "wall_seconds": 134.5,
+  "decisions": 32,
+  "avg_seconds_per_decision": 4.2,
+  "max_seconds_per_decision": 6.3065,
+  "free_ram_mb_before": 6547,
+  "free_ram_mb_min_during": 6543,
+  "ollama_loaded_models": [],
+  "claude_cost_usd": 0.1011,
+  "claude_spend_total_usd": 0.4627
+}
